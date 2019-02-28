@@ -1,6 +1,6 @@
 // - vars - //
 var file = "note.txt";
-// --- Get filename -- //
+// --- Get filename --- //
 function askForFile(){
     var pickFile = prompt("What note file do you want to edit?", "note.txt");
     if (pickFile == null || pickFile == "") {
